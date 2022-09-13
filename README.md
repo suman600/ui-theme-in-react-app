@@ -1,6 +1,5 @@
 # Getting Started setup new UI theme in React JS
 
-
 In the project directory, you can run:
 
 ### `npm start`
