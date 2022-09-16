@@ -1,0 +1,10 @@
+@import "../functions";
+@import "../variables";
+@import "../mixins";
+
+.page-view {
+    padding: $spacer*2 $spacer*4;
+    max-height: calc(100vh - 60px);
+    margin: 0 -#{$spacer*2};
+    overflow: auto;
+}

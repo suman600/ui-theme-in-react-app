@@ -1,0 +1,27 @@
+@import "../functions";
+@import "../variables";
+@import "../mixins";
+
+
+.side-bar {
+    padding: $spacer 0;
+    border-right: 1px solid rgba($black, .1);
+    height: calc(100vh - 60px);
+    overflow: auto;
+
+    &__link {
+        display: block;
+        padding: $spacer*0.5 $spacer*1.5;
+        font-weight: 600;
+        color: rgba($black, 0.65);
+
+        &:hover {
+            color: rgba($black, 0.85);
+            text-decoration: none;
+        }
+
+        &.active {
+            margin-bottom: $spacer;
+        }
+    }
+}
