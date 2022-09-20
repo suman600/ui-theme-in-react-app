@@ -1,6 +1,6 @@
 function Badge () {
     return (
-        <section className="mb-5 pb-5">
+        <section className="mb-5 pb-5" id="badge">
             <h1 className="mb-3">Badges Examples</h1>
             <p className="lead mb-5">Documentation and examples for badges, our small count and labeling component.</p>
             <div>

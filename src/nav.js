@@ -1,7 +1,7 @@
 import logo from './assets/imaegs/logo.svg';
 
 
-function Navbar () {
+function Nav () {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand mr-0 mr-md-2" href="#"><img src={logo} alt="My logo" /></a>
@@ -34,4 +34,4 @@ function Navbar () {
     );
 }
 
-export default Navbar;
+export default Nav;

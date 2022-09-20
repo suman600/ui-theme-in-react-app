@@ -1,7 +1,7 @@
 
 function Carousel () {
     return (
-        <section className="mb-5 pb-5">
+        <section className="mb-5 pb-5" id="carousel">
             <h1 className="mb-3">Carousel Examples</h1>
             <p className="lead mb-5">A slideshow component for cycling through elements—images or slides of text—like a carousel.</p>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">

@@ -1,6 +1,6 @@
 function Button () {
     return (
-        <section className="mb-5 pb-5">
+        <section className="mb-5 pb-5" id="buttons">
             <h1 className="mb-3">Buttons Examples</h1>
             <p className="lead mb-5">Use Bootstrap custom button styles for actions in forms, dialogs, and more with support for multiple sizes, states, and more.</p>
             <div>

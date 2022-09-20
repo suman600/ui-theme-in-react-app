@@ -1,7 +1,7 @@
 
 function Card () {
     return (
-        <section className="mb-5 pb-5">
+        <section className="mb-5 pb-5" id="card">
             <h1 className="mb-3">Cards Examples</h1>
             <p className="lead mb-5">Bootstrap cards provide a flexible and extensible content container with multiple variants and options.</p>
             <div class="card-deck">
