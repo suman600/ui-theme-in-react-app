@@ -1,6 +1,5 @@
 (function () {
     "use strict";
-    alert('working');
     // Easy selector helper function
 
     const select = (el, all = false) => {
@@ -60,15 +59,14 @@
         });
     };
 
-    //Back to top button
 
-
-    //Scrool with ofset on links with a class name .sidebar-link__list
+    //Scrool with ofset on links with a class name .side-bar__link
 
     on('click', '.side-bar__link', function (e) {
         if (select(this.hash)) {
             e.preventDefault();
             scrollto(this.hash);
+
         }
     }, true);
 
