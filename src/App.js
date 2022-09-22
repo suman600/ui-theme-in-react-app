@@ -1,4 +1,7 @@
 import '././assets/ui-theme/custom/page-view.scss';
+
+
+import Folder from './folder';
 import Alert from './alert';
 import Badge from './badge';
 import Breadcrumb from './breadcrumb';
@@ -25,6 +28,7 @@ import Collapse from './collapse';
 function App () {
     return (
         <main className="page-view">
+            <Folder />
             <Alert />
             <Badge />
             <Breadcrumb />

@@ -1,6 +1,6 @@
 function Alert () {
     return (
-        <section className="mb-5 pb-5" id="alert">
+        <section className="mb-5 pb-5" id="alerts">
             <h1 className="mb-3">Alerts Examples</h1>
             <p className="lead mb-5">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
             <div >
