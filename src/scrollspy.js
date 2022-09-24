@@ -1,7 +1,7 @@
 
 function Scrollspy () {
     return (
-        <section className="mb-5 pb-5" id="scrollspy">
+        <section id="scrollspy">
             <h1 className="mb-3">Scrollspy Examples</h1>
             <p className="lead mb-5">Automatically update Bootstrap navigation or list group components based on scroll position to indicate which link is currently active in the viewport.</p>
             <div className="mb-5">

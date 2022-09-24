@@ -2,7 +2,7 @@ import logo from '../src/assets/imaegs/logo-solid.svg';
 
 function Toasts () {
     return (
-        <section className="mb-5 pb-5" id='toasts'>
+        <section id='toasts'>
             <h1 className="mb-3">Toasts Examples</h1>
             <p className="lead mb-5">Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.</p>
             <div className="mb-3">

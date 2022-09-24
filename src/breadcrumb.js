@@ -1,6 +1,6 @@
 function Breadcrumb () {
     return (
-        <section className="mb-5 pb-5" id="breadcrumb">
+        <section id="breadcrumb">
             <h1 className="mb-3">Breadcrumb Examples</h1>
             <p className="lead mb-5">Indicate the current pages location within a navigational hierarchy that automatically adds separators via CSS.</p>
             <nav aria-label="breadcrumb">

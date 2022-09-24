@@ -1,7 +1,7 @@
 
 function Dropdowns () {
     return (
-        <section className="mb-5 pb-5" id="dropdowns">
+        <section id="dropdowns">
             <h1 className="mb-3">Dropdown Examples</h1>
             <p className="lead mb-5">Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.</p>
             <div className="mb-3">

@@ -1,7 +1,7 @@
 
 function Input () {
     return (
-        <section className="mb-5 pb-5" id="input-group">
+        <section id="input-group">
             <h1 className="mb-3">Input Group Examples</h1>
             <p className="lead mb-5">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
             <div class="input-group mb-3">

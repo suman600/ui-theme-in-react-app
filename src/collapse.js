@@ -3,15 +3,15 @@ import logo from '../src/assets/imaegs/logo-solid.svg';
 
 function Collapse () {
     return (
-        <section className="mb-5 pb-5" id='collapse'>
+        <section id='collapse'>
             <h1 className="mb-3">Collapse Examples</h1>
             <p className="lead mb-5">Toggle the visibility of content across your project with a few classes and our JavaScript plugins.</p>
             <div class="mb3">
                 <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="btn btn-primary mr-2" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                         Link with href
                     </a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-primary mr-2" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Button with data-target
                     </button>
                 </p>
@@ -37,9 +37,9 @@ function Collapse () {
             </div>
             <div class="mb-3">
                 <p>
-                    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+                    <a class="btn btn-primary mr-2" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+                    <button class="btn btn-primary mr-2" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+                    <button class="btn btn-primary mr-2" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
                 </p>
                 <div class="row">
                     <div class="col">

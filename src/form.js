@@ -1,7 +1,7 @@
 
 function Form () {
     return (
-        <section className="mb-5 pb-5" id="form">
+        <section id="form">
             <h1 className="mb-3">Forms Examples</h1>
             <p className="lead mb-5">Examples and usage guidelines for form control styles, layout options, and custom components for creating a wide variety of forms.</p>
             <form>

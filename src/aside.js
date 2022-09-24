@@ -2,7 +2,7 @@ import '././assets/ui-theme/custom/side-bar.scss';
 
 function Aside () {
     return (
-        <aside class="side-bar">
+        <aside class="side-bar" id='sideBar'>
             <a class='side-bar__link active' href="#readme">Readme</a>
             <a class='side-bar__link' href="#alerts">Alerts</a>
             <a class='side-bar__link' href="#badge">Badge</a>

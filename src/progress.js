@@ -1,7 +1,7 @@
 
 function Progress () {
     return (
-        <section className="mb-5 pb-5" id="progress">
+        <section id="progress">
             <h1 className="mb-3">Progress Examples</h1>
             <p className="lead mb-5">Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.</p>
             <div className="mb-3">

@@ -2,9 +2,44 @@
 @import "../variables";
 @import "../mixins";
 
-.page-view {
-    padding: $spacer*2 $spacer*4;
-    max-height: calc(100vh - 60px);
-    margin: 0 -#{$spacer*2};
+#navBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: $zindex-fixed;
+    transition: $transition-base;
+}
+
+#sideBar {
+    position: fixed;
+    top: 60px;
+    left: -100vw;
+    width: 100vw;
+    bottom: 0;
+    background-color: $white;
+    z-index: $zindex-fixed;
     overflow: auto;
+    transition: $transition-base;
+
+    @media screen and (min-width: 768px) {
+        left: 0;
+        width: 360px;
+    }
+}
+
+main {
+    margin-top: 60px;
+    overflow: auto;
+    transition: $transition-base;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 360px;
+        transition: $transition-base;
+    }
+
+    section {
+        padding: $spacer*2 $spacer*2;
+        margin-bottom: $spacer*4;
+    }
 }

@@ -1,10 +1,10 @@
 
 function Modal () {
     return (
-        <section className="mb-5 pb-5" id="modal">
+        <section id="modal">
             <h1 className="mb-3">Modal Examples</h1>
             <p className="lead mb-5">Use Bootstrap JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
-            <div className="modal" tabindex="-1" role="dialog" style={{ position: 'relative', top: 'auto', right: 'auto', bottom: 'auto', left: 'auto', display: 'block' }}>
+            <div className="modal" tabindex="-1" role="dialog" style={{ position: 'relative', top: 'auto', right: 'auto', bottom: 'auto', left: 'auto', display: 'block', 'z-index': '9' }}>
                 <div className="modal-dialog" role="document">
                     <div className="modal-content">
                         <div class="modal-header">

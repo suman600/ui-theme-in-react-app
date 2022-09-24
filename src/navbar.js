@@ -2,7 +2,7 @@ import logoSolid from './assets/imaegs/logo-solid.svg';
 
 function Navbar () {
     return (
-        <section className="mb-5 pb-5" id='navbar'>
+        <section id='navbar'>
             <h1 className="mb-3">Navbar Examples</h1>
             <p className="lead mb-5">Documentation and examples for Bootstraps powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</p>
             <nav className="navbar navbar-light bg-light mb-5">
@@ -15,7 +15,7 @@ function Navbar () {
             </nav>
             <div className="navbar navbar-light bg-light mb-5">
                 <a className="navbar-brand" href="#">
-                    <img src={logoSolid} width="30" height="30" className="d-inline-block align-top" alt="" />
+                    <img src={logoSolid} width="30" height="30" className="d-inline-block align-top mr-2" alt="" />
                     Bootstrap
                 </a>
             </div>

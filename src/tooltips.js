@@ -1,16 +1,15 @@
-import logo from '../src/assets/imaegs/logo-solid.svg';
 
 function Tooltips () {
     return (
-        <section className="mb-5 pb-5" id='tooltips'>
+        <section id='tooltips'>
             <h1 className="mb-3">Tooltips Examples</h1>
             <p className="lead mb-5">Documentation and examples for adding custom Bootstrap tooltips with CSS and JavaScript using CSS3 for animations and data-attributes for local title storage.</p>
             <div class="mb-3">
-                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Tooltip on top</button>
-                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tooltip on right">Tooltip on right</button>
-                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
-                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="" data-original-title="Tooltip on left">Tooltip on left</button>
-                <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">Tooltip with HTML</button>
+                <button type="button" class="btn btn-secondary mr-2" data-toggle="tooltip" data-placement="top" title="" data-original-title="Tooltip on top">Tooltip on top</button>
+                <button type="button" class="btn btn-secondary mr-2" data-toggle="tooltip" data-placement="right" title="" data-original-title="Tooltip on right">Tooltip on right</button>
+                <button type="button" class="btn btn-secondary mr-2" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Tooltip on bottom">Tooltip on bottom</button>
+                <button type="button" class="btn btn-secondary mr-2" data-toggle="tooltip" data-placement="left" title="" data-original-title="Tooltip on left">Tooltip on left</button>
+                <button type="button" class="btn btn-secondary mr-2" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>">Tooltip with HTML</button>
             </div>
             <div class="mb-3">
                 <button class="btn btn-primary" style={{ 'pointer-events': 'none' }} type="button" disabled>Disabled button</button>

@@ -1,7 +1,7 @@
 
 function Jumbotron () {
     return (
-        <section className="mb-5 pb-5" id="jumbotron">
+        <section id="jumbotron">
             <h1 className="mb-3">Jumbotron Examples</h1>
             <p className="lead mb-5">Lightweight, flexible component for showcasing hero unit style content.</p>
             <div class="mb-3">

@@ -3,7 +3,7 @@ import logo from '../src/assets/imaegs/logo-solid.svg';
 
 function MediaObject () {
     return (
-        <section className="mb-5 pb-5" id='media-object'>
+        <section id='media-object'>
             <h1 className="mb-3">Media object Examples</h1>
             <p className="lead mb-5">List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.</p>
             <div class="media jumbotron">

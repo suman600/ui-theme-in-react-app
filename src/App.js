@@ -27,7 +27,7 @@ import Collapse from './collapse';
 
 function App () {
     return (
-        <main className="page-view">
+        <main>
             <Folder />
             <Alert />
             <Badge />

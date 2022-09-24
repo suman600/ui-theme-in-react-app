@@ -1,7 +1,7 @@
 
 function Listgroup () {
     return (
-        <section className="mb-5 pb-5" id="list-group">
+        <section id="list-group">
             <h1 className="mb-3">List group Examples</h1>
             <p className="lead mb-5">List groups are a flexible and powerful component for displaying a series of content. Modify and extend them to support just about any content within.</p>
             <div class="mb-3">
