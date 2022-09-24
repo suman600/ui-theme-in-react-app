@@ -15,9 +15,9 @@ function Popovers () {
                 <button type="button" className="btn btn-secondary mr-2" data-container="body" data-toggle="popover" data-placement="left" data-content="Left popover">Popover on left</button>
             </div>
             <div className="mb-3">
-                <a tabindex="0" className="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
+                <a tabIndex="0" className="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">Dismissible popover</a>
             </div>
-            <button className="btn btn-primary" style={{ 'pointer- events': 'none' }} type="button" disabled>Disabled button</button>
+            <button className="btn btn-primary" style={{ pointerEvents: 'none' }} type="button" disabled>Disabled button</button>
         </section >
 
     );

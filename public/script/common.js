@@ -1,5 +1,6 @@
 (function () {
     "use strict";
+    alert('czxvzc');
     // Easy selector helper function
 
     const select = (el, all = false) => {
