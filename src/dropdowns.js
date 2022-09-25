@@ -114,7 +114,7 @@ function Dropdowns () {
                 </div>
             </div>
             <div className="mb-3">
-                <div className="btn-group dropup">
+                <div className="btn-group dropup mr-2">
                     <button type="button" className="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Dropup</button>
                     <div className="dropdown-menu">
                         <a className="dropdown-item" href="#">Action</a>
@@ -179,7 +179,7 @@ function Dropdowns () {
                         <button type="button" className="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                             <span className="sr-only">Toggle Dropleft</span>
                         </button>
-                        <div className="dropdown-menu">
+                        <div className="dropdown-menu mr-2">
                             <a className="dropdown-item" href="#">Action</a>
                             <a className="dropdown-item" href="#">Another action</a>
                             <a className="dropdown-item" href="#">Something else here</a>
@@ -219,7 +219,7 @@ function Dropdowns () {
                         <a className="dropdown-item" href="#">Separated link</a>
                     </div>
                 </div>
-                <div className="btn-group">
+                <div className="btn-group mr-2">
                     <button type="button" className="btn btn-success">Success</button>
                     <button type="button" className="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false">
                         <span className="sr-only">Toggle Dropdown</span>
@@ -284,7 +284,7 @@ function Dropdowns () {
                             <a className="dropdown-item" href="#">Something else here</a>
                         </div>
                     </div>
-                    <div className="btn-group">
+                    <div className="btn-group mr-2">
                         <button type="button" className="btn btn-secondary">Reference</button>
                         <button type="button" className="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-expanded="false" data-reference="parent">
                             <span className="sr-only">Toggle Dropdown</span>

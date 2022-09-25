@@ -1,6 +1,6 @@
 (function () {
     "use strict";
-    alert('czxvzc');
+
     // Easy selector helper function
 
     const select = (el, all = false) => {
@@ -59,6 +59,14 @@
             behavior: 'smooth'
         });
     };
+
+
+    //Mobile nav toggle
+
+    on('click', '.navbar-toggler', function () {
+        select('aside').classList.toggle('show');
+        this.classList.toggle('show');
+    });
 
 
     //Scrool with ofset on links with a class name .side-bar__link
